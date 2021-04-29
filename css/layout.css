@@ -3,3 +3,42 @@
 	padding: 16px 20px 15px 0px;
     margin: -10px -30px 0px -10px ;
 }
+.mainpage{
+    width:100%;
+}
+
+.logo-wrapper{
+    padding: 30px 0px 0px 15px;
+}
+.header-text{
+    color: rgb(153 153 153);
+    /* position: relative; */
+    text-align: centre;
+    margin: 10px 50px 0px 0px;
+}
+.search-input{
+	float:right;
+    margin-top:-80px;
+    margin-right:50px;
+}
+.search-input input{
+    font-size: 14px;
+    padding: 5px 5px;
+}
+.searchbutton{
+        margin-left: -10px;
+        padding: 5px 5px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        border: none;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        background-color: #cc3333; 
+        color: black; 
+        border: 2px solid #cc3333;
+  }
+  
+  
+
