@@ -38,8 +38,8 @@
   left: 0;
   z-index: 99;
 }
-.top-nav-right:hover .top-nav-bar-icon{
-  background-image: url("active-in.png");
+.top-nav-bar-icon:hover {
+  background-image: ("active-in.png");
 }
 
   .slider-detail{
@@ -102,6 +102,7 @@
     margin-top: 14px;
     line-height: 21px;
 }
+
 
   
 
@@ -214,7 +215,86 @@ background-color: #cccccc;
   margin-top: -300px;
   line-height: 30px;
   color:white;
+}.menu{
+  display:none;
 }
 
+      
+
+/* for tablet screen min; used 990 so it won't disrupt the layout*/
+/* @media screen and (min-width: 480px) and (max-width: 990px){
+  .top-border{
+    width:auto;
+  }
+} */
+
+/* for screen bp= 380 to 990 */
+@media screen and (min-width: 380px) and (max-width: 990px){
+  .container {
+    padding: 0em 5em;
+  }
+  .search-wrapper, .logo-wrapper, .top-border{
+    width:auto;
+  }
+  .menu{
+		font-weight: bold;
+		display: block;
+		margin: 6px auto;
+		text-align: center;
+		padding: 15px;
+		margin-top: 50px;
+		background-color: #993333;
+    color: white;
+	}
+	.menu ul{
+		font-weight:lighter;
+		display: none;
+		list-style:none;
+		margin: 0px;
+		padding: 0px;
+	}
+	.menu:hover ul{
+		display: block;
+	}
+	.menu ul li:first-child{
+		border-top:1px solid;
+	}
+	.menu ul li{
+		padding: 10px;
+		font-size: 11px;
+	}
+	.menu ul li:hover{
+		background-color:#cc6666 ;
+	}
+	.menu ul li a{
+		display: block;
+    padding:20px;
+	}
+  .menu ul li li{
+    display:none;
+  }
+  .user-options, .top-nav-right, .header-horizontal-line1, .body-horizontal-line1,
+  .line, .header-horizontal-line1, .body-horizontal-line1,.project-box,.footer-horizontal-line, .body-horizontal-line1,
+  .bottom-horizontal-line2{
+    display:none;
+  }
+.body-container{
+  width:auto;
+}
+.slider-detail{
+  display:none;
+}
+.profile-box{
+  text-align: center;
+  float:none;
+}
+.project-head1, .project-text1{
+  align-content: center;
+  font-size: 10px;
+}
+.footer-container,.bottom-container{
+  display: none;
+}
+}
 
 
