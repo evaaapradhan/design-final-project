@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/reset.css">
+    <script src="script.js"></script>
     <title>The Point </title>
 </head>
 
@@ -22,9 +23,9 @@
                 <div class="logo-wrapper">
                     <img src="images/thepointlogo.png" alt="Logo">
                 </div>
-                <div class="header-text">
-                    <p>Free PSD Website Template</p>
-                </div>
+
+                <span class="vertical-line"></span>
+                <pre class="heading-support">Free PSD Website Template</pre>
 
                 <div class="search-wrapper">
                     <form>
@@ -43,26 +44,72 @@
 
             <div class="header-bottom-overflow">
                 <div class="container">
+                    <div class="header-horizontal-line"></div>
+                    <div class="body-horizontal-line"></div>
                     <div class="header-bottom-container  list-manage clearfix">
                         <div class="user-options">
                             <ul>
-                                <li><a href="#">HOMEPAGE</a></li>
-                                <li><a href="#">STYLE DEMO</a></li>
-                                <li><a href="#">FULL WIDTH</a></li>
-                                <li><a href="#">PORTFOLIO</a></li>
-                                <li><a href="#">GALLERY</a></li>
-                                <li><a href="#">DROPDOWN</a></li>
+                                <li><a href="#">HOMEPAGE</a>
+                                    <ul>
+                                        <li>test text here</li>
+                                    </ul>
+                                    <span class="line"></span>
+                                </li>
+                                <li><a href="#">STYLE DEMO</a>
+                                    <ul>
+                                        <li>test text here</li>
+                                    </ul>
+                                    <span class="line"></span>
+                                </li>
+                                <li><a href="#">FULL WIDTH</a>
+                                    <ul>
+                                        <li>test text here</li>
+                                    </ul>
+                                    <span class="line"></span>
+                                </li>
+
+                                <li><a href="#">PORTFOLIO</a>
+                                    <ul>
+                                        <li>test text here</li>
+                                    </ul>
+                                    <span class="line"></span>
+                                </li>
+                                <li><a href="#">GALLERY</a>
+                                    <ul>
+                                        <li>test text here</li>
+                                    </ul>
+                                    <span class="line"></span>
+                                </li>
+                                <li><a href="#">DROPDOWN</a>
+                                    <ul>
+                                        <li>test text here</li>
+                                    </ul>
+                                </li>
                             </ul>
+
                         </div>
 
-                        <div class="user-notification">
-                            <ul>
-                                <li><a href="#"><img src="images/IN.png"></a></li>
-                                <li><a href="#"><img src="images/twitter.png"></a></li>
-                                <li><a href="#"><img src="images/pinterest.png"></a></li>
-                                <li><a href="#"><img src="images/googleplus.png"></a></li>
-                                <li><a href="#"><img src="images/wifi.png"></a></li>
-                            </ul>
+                        <div class="top-nav-right">
+                            <a href="#" class="top-nav-bar-icon">
+                                <img src="images/IN.png" alt="">
+                                <img src="images/active-in.png" class="imgtop">
+                            </a>
+                            <a href="#" class="top-nav-bar-icon">
+                                <img src="images/twitter.png" alt="">
+                                <img src="images/active-twitter.png" class="imgtop">
+                            </a>
+                            <a href="#" class="top-nav-bar-icon">
+                                <img src="images/pinterest.png" alt="">
+                                <img src="images/active-pinterest.png" class="imgtop">
+                            </a>
+                            <a href="#" class="top-nav-bar-icon">
+                                <img src="images/googleplus.png" alt="">
+                                <img src="images/active-google.png" class="imgtop">
+                            </a>
+                            <a href="#" class="top-nav-bar-icon">
+                                <img src="images/wifi.png" alt="">
+                                <img src="images/active-wifi.png" class="imgtop">
+                            </a>
                         </div>
 
                     </div>
@@ -71,231 +118,234 @@
         </div>
         <!-- bottom header close -->
         <div class="body-container">
-            <div class="image-slider">
-                <!-- Full-width images with number and caption text -->
-                <div class="Slides fade">
-                    <img src="images/image-slider1.png" style="width:100%">
-                    <div class="text">Dapiensociis temper donec auctortortis cumsan et curabitur condis lorem loborttis
-                        leo.
-                        Ipsumcommodo libero nunc at in velis tincidunt sed.</div>
-                </div>
-
-                <div class="Slides fade">
-                    <img src="images/image-slider2.png" style="width:100%">
-                    <div class="text">Caption Two</div>
-                </div>
-
-                <div class="Slides fade">
-                    <img src="images/image-slider5.png" style="width:100%">
-                    <div class="text">Caption Three</div>
-                </div>
-
-                <div class="Slides fade">
-                    <img src="images/image-slider3.png" style="width:100%">
-                    <div class="text">Caption Three</div>
-                </div>
-
-                <div class="Slides fade">
-                    <img src="images/image-slider4.png" style="width:100%">
-                    <div class="text">Caption Three</div>
-                </div>
-
-                <!-- on click button -->
-                <div style="text-align:center">
-                    <span class="dot" onclick="currentSlide(1)"></span>
-                    <span class="dot" onclick="currentSlide(2)"></span>
-                    <span class="dot" onclick="currentSlide(3)"></span>
-                    <span class="dot" onclick="currentSlide(4)"></span>
-                    <span class="dot" onclick="currentSlide(5)"></span>
-
+            <div class="slideshow-container">
+                <img src="images/image-slider1.png" style="width:100%">
+                <div class="slider-detail">
+                    <div class="imagetext">Dapiensociis temper donec auctortortis cumsan et curabitur condis lorem
+                        loborttis
+                        leo. Ipsumcommodo libero nunc at in velis tincidunt sed.</div>
                 </div>
             </div>
-            <div class="body-middle-container">
-                <p>In frigilla Masa ut nisi ullamcorper</p>
-                <p>Lorem Ipsum dolor sit antet, consectutor adipiscing elit. Nunc non diam enit.</p>
+            <br>
+
+            <div class="slider-indicator">
+                <span></span>
+                <span></span>
+                <span id="active-slide"></span>
+                <span></span>
+                <span></span>
             </div>
+        </div>
+        <div class="body-middle-container">
+            <p class="body-title">In frigilla Masa ut nisi ullamcorper</p>
+            <p class="body-text">Lorem Ipsum dolor sit antet, consectutor adipiscing elit. Nunc non diam enit.</p>
+        </div>
 
-            <div class="ID">
-                <div class="box-set clearfix">
-                    <ul id="boxSet">
+        <div class="ID">
+            <div class="box-set list-manage clearfix">
+                <ul id="boxSet">
 
 
-                        <li class="profile-box">
-                            <img src="images/body-image.png" alt="no project">
-                            <div class="hover-logo">
-                                <a href="#">
-                                    <span class="hover-button button-left">
-                                        <i class="fa fa-eye" aria-hidden="true"></i>
-                                    </span>
-                                </a>
-                                <a href="#">
-                                    <span class="hover-button button-right">
-                                        <i class="fa fa-link" aria-hidden="true"></i>
-                                    </span>
-                                </a>
-                            </div>
-                            <p>John Doe</p>
-                            <span class="VP">
-                                <a href="#">
-                                    <p>View Profile >> </p>
-                                </a>
-                            </span>
-                        </li>
-                        <li class="profile-box">
-                            <img src="images/body-image.png" alt="no project">
-                            <div class="hover-logo">
-                                <a href="#">
-                                    <span class="hover-button button-left">
-                                        <i class="fa fa-eye" aria-hidden="true"></i>
-                                    </span>
-                                </a>
-                                <a href="#">
-                                    <span class="hover-button button-right">
-                                        <i class="fa fa-link" aria-hidden="true"></i>
-                                    </span>
-                                </a>
-                            </div>
-                            <p>John Doe</p>
-                            <span class="VP">
-                                <a href="#">
-                                    <p>View Profile >> </p>
-                                </a>
-                            </span>
-                        </li>
-                        <li class="profile-box">
-                            <img src="images/body-image.png" alt="no project">
-                            <div class="hover-logo">
-                                <a href="#">
-                                    <span class="hover-button button-left">
-                                        <i class="fa fa-eye" aria-hidden="true"></i>
-                                    </span>
-                                </a>
-                                <a href="#">
-                                    <span class="hover-button button-right">
-                                        <i class="fa fa-link" aria-hidden="true"></i>
-                                    </span>
-                                </a>
-                            </div>
-                            <p>John Doe</p>
-                            <span class="VP">
-                                <a href="#">
-                                    <p>View Profile >> </p>
-                                </a>
-                            </span>
-                        </li>
-                        <li class="profile-box">
-                            <img src="images/body-image.png" alt="no project">
-                            <div class="hover-logo">
-                                <a href="#">
-                                    <span class="hover-button button-left">
-                                        <i class="fa fa-eye" aria-hidden="true"></i>
-                                    </span>
-                                </a>
-                                <a href="#">
-                                    <span class="hover-button button-right">
-                                        <i class="fa fa-link" aria-hidden="true"></i>
-                                    </span>
-                                </a>
-                            </div>
-                            <p>John Doe</p>
-                            <span class="VP">
-                                <a href="#">
-                                    <p>View Profile >> </p>
-                                </a>
-                            </span>
-                        </li>
-                    </ul>
-                </div>
+                    <li class="profile-box">
+                        <img src="images/body-image.png" alt="no project">
+                        <div class="hover-logo">
+                            <a href="#">
+                                <span class="hover-button button-left">
+                                    <i class="fa fa-eye" aria-hidden="true"></i>
+                                </span>
+                            </a>
+                            <a href="#">
+                                <span class="hover-button button-right">
+                                    <i class="fa fa-link" aria-hidden="true"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <p>John Doe</p>
+                        <span class="VP">
+                            <a href="#">
+                                <p>View Profile >> </p>
+                            </a>
+                        </span>
+                    </li>
+                    <li class="profile-box">
+                        <img src="images/body-image.png" alt="no project">
+                        <div class="hover-logo">
+                            <a href="#">
+                                <span class="hover-button button-left">
+                                    <i class="fa fa-eye" aria-hidden="true"></i>
+                                </span>
+                            </a>
+                            <a href="#">
+                                <span class="hover-button button-right">
+                                    <i class="fa fa-link" aria-hidden="true"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <p>John Doe</p>
+                        <span class="VP">
+                            <a href="#">
+                                <p>View Profile >> </p>
+                            </a>
+                        </span>
+                    </li>
+                    <li class="profile-box">
+                        <img src="images/body-image.png" alt="no project">
+                        <div class="hover-logo">
+                            <a href="#">
+                                <span class="hover-button button-left">
+                                    <i class="fa fa-eye" aria-hidden="true"></i>
+                                </span>
+                            </a>
+                            <a href="#">
+                                <span class="hover-button button-right">
+                                    <i class="fa fa-link" aria-hidden="true"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <p>John Doe</p>
+                        <span class="VP">
+                            <a href="#">
+                                <p>View Profile >> </p>
+                            </a>
+                        </span>
+                    </li>
+                    <li class="profile-box">
+                        <img src="images/body-image.png" alt="no project">
+                        <div class="hover-logo">
+                            <a href="#">
+                                <span class="hover-button button-left">
+                                    <i class="fa fa-eye" aria-hidden="true"></i>
+                                </span>
+                            </a>
+                            <a href="#">
+                                <span class="hover-button button-right">
+                                    <i class="fa fa-link" aria-hidden="true"></i>
+                                </span>
+                            </a>
+                        </div>
+                        <p>John Doe</p>
+                        <span class="VP">
+                            <a href="#">
+                                <p>View Profile >> </p>
+                            </a>
+                        </span>
+                    </li>
+                </ul>
             </div>
-            <div class="body-bottom-container">
-                <div class="projects ">
+        </div>
+        <div class="header-horizontal-line1"></div>
+        <div class="body-horizontal-line1"></div>
+        <div class="body-bottom-container">
+            <div class="projects ">
+                <p class="project-text">OUR LATEST</p>
+                <p class="project-work">PROJECT <br> WORK>></p>
+            </div>
+            <div class="project-box list-manage clearfix">
+                <ul class="project-box-image clearfix">
+                    <li class="project-image">
+                        <img src="images/project-pic1.png">
 
-                </div>
-                <div class="project-box">
-                    <ul id="project-box-image">
-                        <li class="project-image">
-                            <img src="images/project-pic1.png">
+                        <p class="project-head1"> YOUR TITLE HERE</p>
+                        <p class="project-text1"> Vestibulumaccumsan egestibulum eu justo<br> convallis augue estas aenean
+                            elit intesque<br>
+                            sed.
+                            Facilispede estibulum nulla orna nisl <br>velit elit ac aliquat non tincidunt.</p>
+                        <div class="readbutton">
+                            <a href="#">READ MORE>></a>
+                        </div>
+                    </li>
+                    <li class="project-image">
+                        <img src="images/project-pic2.png">
 
-                            <p> YOUR TITLE HERE</p>
-                            <p> Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque
-                                sed.
-                                Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt.</p>
-                            <div class="readbutton">
-                                <a href="#">READ MORE>></a>
-                            </div>
-                        </li>
-                        <li class="project-image">
-                            <img src="images/project-pic2.png">
-
-                            <p> YOUR TITLE HERE</p>
-                            <p> Vestibulumaccumsan egestibulum eu justo convallis augue estas aenean elit intesque
-                                sed.
-                                Facilispede estibulum nulla orna nisl velit elit ac aliquat non tincidunt.</p>
-                            <div class="readbutton">
-                                <a href="#">READ MORE>></a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
+                        <p class="project-head1"> YOUR TITLE HERE</p>
+                        <p class="project-text1"> Vestibulumaccumsan egestibulum eu justo <br>convallis augue estas aenean
+                            elit intesque<br>
+                            sed.Facilispede estibulum nulla orna nisl<br> velit elit ac aliquat non tincidunt.</p>
+                        <div class="readbutton">
+                            <a href="#">READ MORE>></a>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
 
+
         <!-- footer -->
-        <div class="footer-wrapper">
-            <!--footer part-->
-            <div class="container">
-                <div class="footer-container clearfix">
-                    <div class="blog">
-                        <div class="blog1">
-                            <p>About Us</p>
-                            <p>Lorem Ipsum </p>
-                            <a href="#">Read More >> </a>
-                        </div>
-                        <div class="blog2">
-                            <p>From the Blog</p>
-                            <p>Post Tile</p>
-                            <p>Friday 16th 2000</p>
-                            <p>Lorem Ipsum etc etc </p>
-                            <a href="#">Read More >> </a>
-                        </div>
+
+        <div class="footer-bottom-wrapper">
+            <div class="footer-horizontal-line"></div>
+            <div class="footer-container container clearfix">
+                <div class="blog">
+                    <div class="blog1">
+                        <p class="about">ABOUT US</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur <br>adipiscing elit.
+                            Nunc non diam erat. In fringilla <br>massa ut nisi ullamcorper pellentesque.<br>
+                            Quisque non luctus sem. </p>
+                        <a href="#">Read More >> </a>
                     </div>
-                    <div class="footer-nav">\
-                        <p>Link Lists</p>
-                        <ul>
-                            <li><a href="#">Lorem Ipsum</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Term of Use</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Feedback</a></li>
-                        </ul>
+                    <div class="blog2">
+                        <p class="about">FROM THE BLOG</p>
+                        <p>Post Tile</p>
+                        <p>Friday 16th 2000</p>
+                        <p>Lorem Ipsum etc etc </p>
+                        <a href="#">Read More >> </a>
                     </div>
-                    <div class="footer-form">
-                        <p>News Letter</p>
-                        <p>Vestibuluaccosoam egestibulum etc etc etc etc etc etc etc </p>
+                </div>
+                <div class="footer-right-container clearfix">
+                    <div class="footer-mid">
+                        <div class="footer-left-title">Link Block</div>
+                        <div class="col2-row1 desc-right">
+                            <ul class="list-right">
+                                <li><a href="#">Lorem Ipsum</a></li>
+                                <li><a href="#">Lorem ipsum dolor sit
+
+
+                                <li><a href="#">Amet consectetur</a></li>
+                                <li><a href="#">Praesent vel sem id</a></li>
+                                <li><a href="#"> Curabitur hendrerit est</a></li>
+                                <li><a href="#">Aliquam eget erat nec sapien</a></li>
+                                <li><a href="#">Cras id augue nunc</a></li>
+                                <li><a href="#">In nec justo non</a></li>
+                            </ul>
+                        </div>
+
 
                     </div>
-                    <div class="footer-form">
-                        <form>
-                            <div class="search-input">
-                                <input type="text" placeholder="Name">
-                                <input type="text" placeholder="Email">
-                                <div class="searchbutton">
-                                    <a href="#">SUBMIT</a>
-                                </div>
-                            </div>
-                        </form>
+                    <div class="footer-right">
+                        <div class="footer-left-title">Newsletter
+                            <p> Vestibulumaccumsan egestibulum eu justo<br>
+                                 convallis augue estas aenean elit intesque sed.</p>
+                        </div>
+                        <div >
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div>
+                            <input type="text" placeholder="Email">
+                        </div>
+                        <div class="submitbutton">
+                            <a href="#">SUBMIT</a>
+                        </div>
+                        <div class="contact">
+                            <p>Contact Us</p>
+                            <p>Tel: xxxxx xxxxxxx</p>
+                            <p>Email: contact@mydomain.com</p>
+                        </div>
                     </div>
-                    <div class="contact">
-                        <p>Contact Us</p>
-                        <p>Tel: xxx xxxxxx</p>
-                        <p>Email: contact@mydomain.com</p>
-                    </div>
-                    <div class="copyright">Copyright &copy; - 2013-All Rights-Reserved-Domain-Name </div>
-                    <div class="footer-text">Template By OS Template</div>
+                </div>
+            </div>
+            <div class="bottom-horizontal-line1"></div>
+            <div class="bottom-horizontal-line2"></div>
+            <div class="bottom-container container clearfix">
+                <div class="bottom-left">
+                    Copyright &copy; - 2013-All Rights-Reserved-Domain-Name
+                </div>
+                <div class="bottom-right">
+                    Template By OS Template
                 </div>
             </div>
         </div>
     </div>
+
 </body>
 
 </html>
